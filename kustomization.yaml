@@ -1,0 +1,10 @@
+resources:
+- ingress.yaml
+
+patchesJson6902:
+- target:
+    group: extensions
+    version: v1beta1
+    kind: Ingress
+    name: my-ingress
+  path: ingress_patch.json
