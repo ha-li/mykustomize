@@ -1,0 +1,8 @@
+commonLabels:
+  env: prd
+
+bases:
+  - ../../base
+
+patches:
+  - ingress.yaml

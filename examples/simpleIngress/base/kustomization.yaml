@@ -1,3 +1,13 @@
+commonLabels:
+  team: ninjas
+
+commonAnnotations:
+  preFix: 3/22/2019
+
+namePrefix: mykustomizer-
+
+#namePostfix: -yabadabado
+
 resources:
 - ingress.yaml
 

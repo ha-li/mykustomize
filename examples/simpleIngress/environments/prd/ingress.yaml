@@ -1,0 +1,12 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: my-ingress
+spec:
+  rules:
+  - host: ninja.com
+    http:
+      paths:
+        - backend:
+            #serviceName: my-prd-api
+            servicePort: 8080
