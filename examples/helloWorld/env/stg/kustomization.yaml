@@ -1,0 +1,14 @@
+namePrefix: stg-
+
+commonLabels:
+  variant: stg
+  org: com.gecko
+
+commonAnnotations:
+  note: This is staging!
+
+bases:
+  - ../../base
+
+patchesStrategicMerge:
+  - map.yaml

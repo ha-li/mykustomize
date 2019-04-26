@@ -1,0 +1,14 @@
+namePrefix: prd-
+
+commonLabels:
+  variant: prd
+  org: com.gecko
+
+commonAnnotations:
+  note: This is prd!
+
+bases:
+  - ../../base
+
+patchesStrategicMerge:
+  - deployment.yaml
